@@ -9,6 +9,7 @@ Practical Examples:
 
 Enforcing Namespace Labels:
 - Blocking pods without resource/limits.
-![Uploading image.png…]()
+![image](https://github.com/dv-sharma/KubernetesHandson/assets/65087388/2d846b0b-5c56-442e-9e39-5a062b2a0f25)
+
 
 - Imagine you want all namespaces to have a mandatory label "purpose" with a value like "production" or "staging." Kyverno's validation rules can achieve this. Here's a sample policy:
